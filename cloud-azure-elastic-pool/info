@@ -1,5 +1,5 @@
 NAME=com.opsview.opspack.cloud_azure_elastic_pool
-VERSION=1.1
+VERSION=2.0
 ALIAS=Cloud - Azure - Elastic Pool
 DEPENDENCIES=
-OPSVIEW_MIN_VERSION=
+OPSVIEW_MIN_VERSION=6.0.0
