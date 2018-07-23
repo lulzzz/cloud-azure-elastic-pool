@@ -23,7 +23,7 @@ Opsview Monitor's Azure Elastic Pool Opspack provides all the latest metrics to 
 |eDTU_used | eDTU Used |
 |storage_used | Storage Used |
 |xtp_storage_percent | In-Memory OLTP Storage Percentage |
-|storage_percent |  Sotrage Percentage |
+|storage_percent |  Storage Percentage |
 
 ## Prerequisites
 
@@ -115,7 +115,7 @@ To configure and utilize this Opspack, you simply need to add the 'Cloud - Azure
 
 #### Step 1: Add the host template
 
-![Add Host Template](/docs/img/host-template.png?raw=true)
+![Add Host Template](/docs/img/elasticpool_add_host.png?raw=true)
 
 #### Step 2: Add and configure variables required for this host
 
@@ -127,4 +127,4 @@ Then override the Subscription ID, Client ID, Secret Key and Tenant ID
 
 #### Step 3: Reload and the system will now be monitored
 
-![View Output](/docs/img/output.png?raw=true)
+![View Output](/docs/img/elasticpool_checks.png?raw=true)
