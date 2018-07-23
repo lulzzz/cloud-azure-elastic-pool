@@ -10,19 +10,20 @@ Opsview Monitor's Azure Elastic Pool Opspack provides all the latest metrics to 
 
 ## Service Checks
 
-| Service Check |
-|:------------- |
-| cpu_percent
-|physical_data_read_percent
-|log_write_percent
-|dtu_consumption_percent
-|workers_percent
-|sessions_percent
-|eDTU_limit
-|storage_limit
-|eDTU_used
-|storage_used
-|xtp_storage_percent
+| Service Check | Description |
+|:------------- |:----------- |
+| cpu_percent | CPU Percentage |
+|physical_data_read_percent | Data IO Percentage |
+|log_write_percent | Log IO Percentage |
+|dtu_consumption_percent | DTU Percentage |
+|workers_percent | Workers Percentage |
+|sessions_percent | Sessions Percentage | 
+|eDTU_limit | eDTU Limit |
+|storage_limit | Storage Limit |
+|eDTU_used | eDTU Used |
+|storage_used | Storage Used |
+|xtp_storage_percent | In-Memory OLTP Storage Percentage |
+|storage_percent |  Sotrage Percentage |
 
 ## Prerequisites
 
