@@ -10,19 +10,20 @@ Opsview Monitor's Azure Elastic Pool Opspack provides all the latest metrics to 
 
 ## Service Checks
 
-| Service Check |
-|:------------- |
-| cpu_percent
-|physical_data_read_percent
-|log_write_percent
-|dtu_consumption_percent
-|workers_percent
-|sessions_percent
-|eDTU_limit
-|storage_limit
-|eDTU_used
-|storage_used
-|xtp_storage_percent
+| Service Check | Description |
+|:------------- |:----------- |
+| cpu_percent | CPU Percentage |
+|physical_data_read_percent | Data IO Percentage |
+|log_write_percent | Log IO Percentage |
+|dtu_consumption_percent | DTU Percentage |
+|workers_percent | Workers Percentage |
+|sessions_percent | Sessions Percentage | 
+|eDTU_limit | eDTU Limit |
+|storage_limit | Storage Limit |
+|eDTU_used | eDTU Used |
+|storage_used | Storage Used |
+|xtp_storage_percent | In-Memory OLTP Storage Percentage |
+|storage_percent |  Storage Percentage |
 
 ## Prerequisites
 
@@ -114,7 +115,7 @@ To configure and utilize this Opspack, you simply need to add the 'Cloud - Azure
 
 #### Step 1: Add the host template
 
-![Add Host Template](/docs/img/host-template.png?raw=true)
+![Add Host Template](/docs/img/elasticpool_add_host.png?raw=true)
 
 #### Step 2: Add and configure variables required for this host
 
@@ -126,4 +127,4 @@ Then override the Subscription ID, Client ID, Secret Key and Tenant ID
 
 #### Step 3: Reload and the system will now be monitored
 
-![View Output](/docs/img/output.png?raw=true)
+![View Output](/docs/img/elasticpool_checks.png?raw=true)
